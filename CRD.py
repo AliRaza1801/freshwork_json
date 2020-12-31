@@ -42,9 +42,9 @@ class fileop:
 			for nwlines in dlline:
 				opfile.write(nwlines)
 
-#print(fileop.createfile('check.txt','A',{'a':1,'b':2},3800))
-#print(fileop.createfile('check.txt','B',{'b':1,'c':2},200))
-#print(fileop.createfile('check.txt','C',{'c':1,'d':2},200000))
+#print(fileop.createfile('check.txt','A',{'a':1,'b':2}))
+#print(fileop.createfile('check.txt','B',{'b':1,'c':2}))
+#print(fileop.createfile('check.txt','C',{'c':1,'d':2}))
 #print(fileop.readfile('check.txt','C'))
 #print(fileop.readfile('check.txt','B'))
 #print(fileop.readfile('check.txt','D'))
